@@ -45,3 +45,10 @@ $('#table').DataTable({
 		});
 	}
 ```
+
+#Links
+
+Fore more information please see:
+
+- https://datatables.net/reference/option/columns.type
+- https://www.datatables.net/plug-ins/sorting/
