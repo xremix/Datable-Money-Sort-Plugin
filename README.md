@@ -3,7 +3,7 @@ Datable Money-Sort Plugin
 A plugin to sort money-strings in Datatable.
 
 This helps when having a string with money charachters like `99.4499,11 €` that should be sortable. 
-By default datatable is sorting the numbers as a string.
+By default datatable is sorting the numbers as a string, not as a number because it is using the returned value from `render` to sort the rows.
 
 What datatables is doing:
 
@@ -18,7 +18,7 @@ What the plugin is doing:
 - 998 €
 - 994 €
 
-#exmaple
+#Example
 
 ```JS
 $('#table').DataTable({
@@ -37,7 +37,7 @@ $('#table').DataTable({
 					data: 'price',
 					title: 'Price',
 					render: function(data, type, row){
-						return data +" $";
+						return data +" €";
 					},
 					"type": "money-number" 
 				}
