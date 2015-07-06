@@ -1,4 +1,4 @@
-Datable Money-Sort Plugin
+Datatable Money-Sort Plugin
 ============
 A plugin to sort money-strings in Datatable.
 
