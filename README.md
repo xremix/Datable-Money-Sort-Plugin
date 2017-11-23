@@ -18,7 +18,7 @@ What the plugin is doing:
 - 998 €
 - 994 €
 
-#Example
+# Example
 
 ```JS
 $('#table').DataTable({
@@ -46,7 +46,7 @@ $('#table').DataTable({
 	}
 ```
 
-#Links
+# Links
 
 Fore more information please see:
 
